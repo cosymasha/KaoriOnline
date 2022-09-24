@@ -29,7 +29,7 @@ connextion.on(VoiceConnectionStatus.Ready, async () => {
 
  
   
-client.login("NDk5NDQ3NDU2Njc4MDE5MDcy.O8cy_wZ.1JHDQJDMTf6nMG5lT3f4nopdPEs");
+client.login("NzUxNzYzMDk4OTkzNDI2NDky.90SYskU.DccbgZmwxZ6MbDQWqNjlwSzx1DS");
 
  
 
