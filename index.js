@@ -31,10 +31,10 @@ client7 = new Client({
 client8 = new Client({
 ﻿checkUpdate: false,
 ﻿});
-lient9 = new Client({
+client9 = new Client({
 ﻿checkUpdate: false,
 ﻿});
-lient10 = new Client({
+client10 = new Client({
 ﻿checkUpdate: false,
 ﻿});
 
