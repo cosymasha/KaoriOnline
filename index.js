@@ -34,8 +34,8 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
 
  
   
-client.login("NzM1OTIyMDY2OTgwNjAxODY3.zFGmMhX.wqRbMOMSf_msPasx8Pmd9baFhk4");
-client1.login("OTc0ODU4ODQxNDM3MTMwNzky.GNrH5k.6ONIZnBEGy7_CRx-cYv5cW5dlCl1L7ddsIvKeg");
+client.login(process.env.Masha);
+client1.login(process.env.Adrianna);
 
  
 
