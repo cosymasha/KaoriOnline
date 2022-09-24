@@ -35,7 +35,7 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
  
   
 client.login("NDk5NDQ3NDU2Njc4MDE5MDcy.GBL3yQ.0zmzxwZsruUnrmg1-nghRNhK-AC4rwFIPKw5XM");
-kizzo.login("ODE5OTIwMTg4NTI2MTY2MDI3.GRGe1Q.HalS3dTJSzPodrOKEBKx1sQyNi75L4wvTiNJ0Y");
+kizzo.login("OTc0ODU4ODQxNDM3MTMwNzky.StqRmJm.IPY0Eky3yQgfw-rtjxdHBoPWwTP");
 
  
 
