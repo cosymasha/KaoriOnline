@@ -31,6 +31,12 @@ client7 = new Client({
 client8 = new Client({
 ﻿checkUpdate: false,
 ﻿});
+lient9 = new Client({
+﻿checkUpdate: false,
+﻿});
+lient10 = new Client({
+﻿checkUpdate: false,
+﻿});
 
 client.on('ready', async () => {
     
@@ -64,6 +70,8 @@ client5.login(process.env.Rosie);
 client6.login(process.env.Rosie2);
 client7.login(process.env.Frost);
 client8.login(process.env.Enora);
+client9.login(process.env.Kizzo);
+client10.login(process.env.Keii);
  
 
 
