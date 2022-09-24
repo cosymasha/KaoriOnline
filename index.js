@@ -31,7 +31,7 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
 
  
   
-client.login("ODc4OTAxODMwMjgzODI5MjY4.G5ZYvr.3STUhDPtRY00mf4rPfQ8aXLvlup4m9hEVJfxNo");
+client.login("ODc4OTAxODMwMjgzODI5MjY4.G_2hwg.xZWb5bWObtiE8uTMVHJPjB4ZQf0_Hw9QOmTUGk");
 
  
 
