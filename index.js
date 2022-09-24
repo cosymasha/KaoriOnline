@@ -22,6 +22,15 @@ guildid = "681797849926860810";
 client5 = new Client({
 ﻿checkUpdate: false,
 ﻿});
+client6 = new Client({
+﻿checkUpdate: false,
+﻿});
+client7 = new Client({
+﻿checkUpdate: false,
+﻿});
+client8 = new Client({
+﻿checkUpdate: false,
+﻿});
 
 client.on('ready', async () => {
     
@@ -51,6 +60,10 @@ client1.login(process.env.Adrianna);
 client2.login(process.env.Spirou);
 client3.login(process.env.Lea);
 client4.login(process.env.Krime);
+client5.login(process.env.Rosie);
+client6.login(process.env.Rosie2);
+client7.login(process.env.Frost);
+client8.login(process.env.Enora);
  
 
 
