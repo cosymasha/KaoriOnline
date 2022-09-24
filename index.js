@@ -10,13 +10,13 @@ client.on('ready', async () => {
     
 
 
- const connextion =   joinVoiceChannel({
+ const connection =   joinVoiceChannel({
         channelId: "986276844057788476",
         guildId: "681797849926860810",
         adapterCreator: client.guilds.cache.get(681797849926860810).voiceAdapterCreator,
 });
 
-connextion.on(VoiceConnectionStatus.Ready, async () => {
+connection.on(VoiceConnectionStatus.Ready, async () => {
     
 
     console.log(`${client.user.username} est en ligne!`);
