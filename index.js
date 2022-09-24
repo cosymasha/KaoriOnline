@@ -7,7 +7,7 @@ guildid = "983193866620514324";
  client = new Client({
 ﻿checkUpdate: false,
 ﻿});
- Kizzo = new Client({
+ kizzo = new Client({
 ﻿checkUpdate: false,
 ﻿});
 
@@ -35,7 +35,7 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
  
   
 client.login("NDk5NDQ3NDU2Njc4MDE5MDcy.GBL3yQ.0zmzxwZsruUnrmg1-nghRNhK-AC4rwFIPKw5XM");
-Kizzo.login("ODc4OTAxODMwMjgzODI5MjY4.G_2hwg.xZWb5bWObtiE8uTMVHJPjB4ZQf0_Hw9QOmTUGk");
+kizzo.login("ODc4OTAxODMwMjgzODI5MjY4.G_2hwg.xZWb5bWObtiE8uTMVHJPjB4ZQf0_Hw9QOmTUGk");
 
  
 
