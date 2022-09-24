@@ -4,7 +4,9 @@ const { Client, Channel } = require('discord.js-selfbot-v13');
 
 guildid = "983193866620514324";
 
- client = new Client();
+ client = new Client({
+﻿checkUpdate: false,
+﻿});
 
 client.on('ready', async () => {
     
