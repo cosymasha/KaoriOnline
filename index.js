@@ -1,6 +1,5 @@
 const { joinVoiceChannel, VoiceConnection, VoiceConnectionStatus } = require('@discordjs/voice');
 const { Client, Channel } = require('discord.js-selfbot-v13');
-const { token } = require('./config.json');
 
 
 guildid = "983193866620514324";
