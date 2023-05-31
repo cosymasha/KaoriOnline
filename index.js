@@ -62,15 +62,15 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
  
   
 client.login(process.env.Masha);
-client1.login(process.env.Adrianna);
-client2.login(process.env.Spirou);
-client3.login(process.env.Lea);
-client4.login(process.env.Krime);
-client5.login(process.env.Rosie);
-client6.login(process.env.Rosie2);
+client1.login(process.env.Rina);
+client2.login(process.env.Impo);
+client3.login(process.env.Sasha);
+client4.login(process.env.Lamse);
+client5.login(process.env.Himeji);
+client6.login(process.env.Assia);
 client7.login(process.env.Frost);
-client8.login(process.env.Enora);
-client9.login(process.env.Kizzo);
+client8.login(process.env.Nathan);
+client9.login(process.env.Caprice);
 client10.login(process.env.Keii);
  
 
