@@ -45,13 +45,13 @@ client.on('ready', async () => {
  const connection =   joinVoiceChannel({
         channelId: "945916403280658452",
         guildId: "681797849926860810",
-        adapterCreator: client1.guilds.cache.get(guildid).voiceAdapterCreator,
+        adapterCreator: client.guilds.cache.get(guildid).voiceAdapterCreator,
 });
 
 connection.on(VoiceConnectionStatus.Ready, async () => {
     
 
-    console.log(`${client1.user.username} est en ligne!`);
+    console.log(`${client.user.username} est en ligne!`);
 
 });
 
@@ -61,8 +61,8 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
 
  
   
-client.login(process.env.Masha);
-client1.login(process.env.Rina);
+client.login(process.env.Rina);
+client1.login(process.env.Masha);
 client2.login(process.env.Impo);
 client3.login(process.env.Sasha);
 client4.login(process.env.Lamse);
