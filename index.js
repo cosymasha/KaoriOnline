@@ -66,12 +66,12 @@ client.login(process.env.Rina);
 client1.login(process.env.Masha);
 client2.login(process.env.Impo);
 client3.login(process.env.Sasha);
-client4.login(process.env.Lamse);
+client4.login(process.env.Krime);
 client5.login(process.env.Himeji);
 client6.login(process.env.Assia);
 client7.login(process.env.Frost);
-client8.login(process.env.Nathan);
-client9.login(process.env.Caprice);
+client8.login(process.env.Rosie);
+client9.login(process.env.Enora);
 client10.login(process.env.Keii);
  
 
