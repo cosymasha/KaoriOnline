@@ -1,57 +1,75 @@
-const { joinVoiceChannel, VoiceConnectionStatus } = require('@discordjs/voice');
-const { Client, GatewayIntentBits } = require('discord.js-selfbot-v13');
+const { joinVoiceChannel, VoiceConnection, VoiceConnectionStatus } = require('@discordjs/voice');
+const { Client, Channel } = require('discord.js');
 
-const guildid = "681797849926860810";
-const channelid = "1108853251023052954";
 
-// Intents sans les messages
-const intents = new GatewayIntentBits().remove([
-  GatewayIntentBits.GuildMessageContent,
-  GatewayIntentBits.DirectMessages,
-]);
+guildid = "681797849926860810";
 
-const clients = [
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-  new Client({ ws: { intents: intents }, checkUpdate: false }),
-];
+ client = new Client({
+﻿checkUpdate: false,
+﻿});
+ client1 = new Client({
+﻿checkUpdate: false,
+﻿});
+ client2 = new Client({
+﻿checkUpdate: false,
+﻿});
+ client3 = new Client({
+﻿checkUpdate: false,
+﻿});
+ client4 = new Client({
+﻿checkUpdate: false,
+﻿});
+client5 = new Client({
+﻿checkUpdate: false,
+﻿});
+client6 = new Client({
+﻿checkUpdate: false,
+﻿});
+client7 = new Client({
+﻿checkUpdate: false,
+﻿});
+client8 = new Client({
+﻿checkUpdate: false,
+﻿});
+client9 = new Client({
+﻿checkUpdate: false,
+﻿});
+client10 = new Client({
+﻿checkUpdate: false,
+﻿});
 
-// Seul le premier client rejoint le salon vocal
-clients[0].on('ready', async () => {
-  const connection = joinVoiceChannel({
-    channelId: channelid,
-    guildId: guildid,
-    adapterCreator: clients[0].guilds.cache.get(guildid).voiceAdapterCreator,
-    selfDeaf: false,
-  });
+client.on('ready', async () => {
+    
 
-  connection.on(VoiceConnectionStatus.Ready, () => {
-    console.log(`${clients[0].user.username} est en ligne dans le salon vocal!`);
-  });
+
+ const connection =   joinVoiceChannel({
+        channelId: "1108853251023052954",
+        guildId: "1108853250532323490",
+        adapterCreator: client.guilds.cache.get(guildid).voiceAdapterCreator,
+        selfDeaf: false,
 });
 
-const logins = [
-  process.env.Rina,
-  process.env.Masha,
-  process.env.Impo,
-  process.env.Sasha,
-  process.env.Krime,
-  process.env.Himeji,
-  process.env.Assia,
-  process.env.Frost,
-  process.env.Rosie,
-  process.env.Enora,
-  process.env.Keii,
-];
+connection.on(VoiceConnectionStatus.Ready, async () => {
+    
 
-clients.forEach((client, index) => {
-  client.login(logins[index]);
+    console.log(`${client.user.username} est en ligne!`);
+
 });
+
+    });
+
+
+
+ 
+  
+client.login(process.env.Rina);
+client1.login(process.env.Masha);
+client2.login(process.env.Impo);
+client3.login(process.env.Sasha);
+client4.login(process.env.Krime);
+client5.login(process.env.Himeji);
+client6.login(process.env.Assia);
+client7.login(process.env.Frost);
+client8.login(process.env.Rosie);
+client9.login(process.env.Enora);
+client10.login(process.env.Keii);
