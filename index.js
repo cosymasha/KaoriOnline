@@ -63,7 +63,7 @@ client.login(process.env.Rina);
 client1.login(process.env.Masha);
 client2.login(process.env.Olaf);
 client3.login(process.env.Chino);
-client4.login(process.env.Krime);
+client4.login(process.env.Ronin);
 client5.login(process.env.Himeji);
 client6.login(process.env.Keii);
 client7.login(process.env.Frost);
