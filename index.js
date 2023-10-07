@@ -34,9 +34,6 @@ client8 = new Client({
 client9 = new Client({
 ﻿checkUpdate: false,
 ﻿});
-client10 = new Client({
-﻿checkUpdate: false,
-﻿});
 
 client.on('ready', async () => {
     
@@ -64,12 +61,11 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
   
 client.login(process.env.Rina);
 client1.login(process.env.Masha);
-client2.login(process.env.Impo);
-client3.login(process.env.Sasha);
+client2.login(process.env.Olaf);
+client3.login(process.env.Chino);
 client4.login(process.env.Krime);
 client5.login(process.env.Himeji);
-client6.login(process.env.Assia);
+client6.login(process.env.Keii);
 client7.login(process.env.Frost);
 client8.login(process.env.Rosie);
-client9.login(process.env.Enora);
-client10.login(process.env.Keii);
+client9.login(process.env.Cassidy);
