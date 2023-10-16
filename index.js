@@ -7,9 +7,9 @@ guildid = "681797849926860810";
  client = new Client({
 ﻿checkUpdate: false,
 ﻿});
- client1 = new Client({
-﻿checkUpdate: false,
-﻿});
+// client1 = new Client({
+// ﻿checkUpdate: false,
+// ﻿});
  //client2 = new Client({
 //﻿checkUpdate: false,
 //﻿});
@@ -60,7 +60,7 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
  
   
 client.login(process.env.Rina);
-client1.login(process.env.Masha);
+// client1.login(process.env.Masha);
 // client2.login(process.env.Olaf);
 // client4.login(process.env.Ronin);
 // client5.login(process.env.Himeji);
