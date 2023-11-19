@@ -41,8 +41,6 @@ module.exports = {
       presence: { afk: true }
    },
 
-guildid = "681797849926860810";
-
  client = new Client({
 checkUpdate: false,
 shards: 1,
