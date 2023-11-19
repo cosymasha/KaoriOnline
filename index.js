@@ -1,6 +1,45 @@
 const { joinVoiceChannel, VoiceConnection, VoiceConnectionStatus } = require('@discordjs/voice');
 const { Client, Channel } = require('discord.js-selfbot-v13');
 
+module.exports = {
+   clientOptions: {
+      disabledEvents: [
+         'TYPING_START',
+         'VOICE_SERVER_UPDATE',
+         'RELATIONSHIP_ADD',
+         'RELATIONSHIP_REMOVE',
+         'GUILD_ROLE_DELETE',
+         'GUILD_ROLE_UPDATE',
+         'GUILD_BAN_ADD',
+         'GUILD_BAN_REMOVE',
+         'CHANNEL_UPDATE',
+         'CHANNEL_PINS_UPDATE',
+         'MESSAGE_DELETE',
+         'MESSAGE_UPDATE',
+         'MESSAGE_DELETE_BULK',
+         'MESSAGE_REACTION_ADD',
+         'MESSAGE_REACTION_REMOVE',
+         'GUILD_MEMBER_UPDATE',
+         'GUILD_MEMBERS_CHUNK',
+         'GUILD_ROLE_CREATE',
+         'MESSAGE_REACTION_REMOVE_ALL',
+         'USER_UPDATE',
+         'USER_NOTE_UPDATE',
+         'USER_SETTINGS_UPDATE',
+         'PRESENCE_UPDATE',
+         'VOICE_STATE_UPDATE',
+         'GUILD_UPDATE',
+         'GUILD_MEMBER_ADD',
+         'GUILD_MEMBER_REMOVE'
+      ],
+      messageEditHistoryMaxSize: 1,
+      messageSweepInterval: 1,
+      messageCacheLifetime: 1,
+      messageCacheMaxSize: 1,
+      cacheChannels: true,
+      restTimeOffset: 0,
+      presence: { afk: true }
+   },
 
 guildid = "681797849926860810";
 
