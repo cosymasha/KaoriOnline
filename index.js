@@ -40,6 +40,7 @@ module.exports = {
       restTimeOffset: 0,
       presence: { afk: true }
    },
+}
 
  client = new Client({
 checkUpdate: false,
