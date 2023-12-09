@@ -58,10 +58,10 @@ shards: 1,
  checkUpdate: false,
  shards: 1,
 });
-	client4 = new Client({
-	checkUpdate: false,
-	shards: 1,
-	});
+	//client4 = new Client({
+	//checkUpdate: false,
+	//shards: 1,
+	//});
  client5 = new Client({
 checkUpdate: false,
 shards: 1,
@@ -111,7 +111,7 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
 		// client1.login(process.env.MASHA);
 		client2.login(process.env.LEA);
 		client3.login(process.env.SHAYLA);
-		client4.login(process.env.SMOKIE);
+		// client4.login(process.env.SMOKIE);
 		client5.login(process.env.YUKI);
 		client6.login(process.env.KEII);
 		client7.login(process.env.FROST);
