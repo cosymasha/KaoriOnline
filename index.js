@@ -46,10 +46,10 @@ guildId = "681797849926860810";
 checkUpdate: false,
 shards: 1,
 });
- client1 = new Client({
- checkUpdate: false,
- shards: 1,
-});
+ //client1 = new Client({
+ //checkUpdate: false,
+ //shards: 1,
+//});
  client2 = new Client({
  checkUpdate: false,
  shards: 1,
@@ -108,7 +108,7 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
 
 
 		client.login(process.env.RINA);
-		client1.login(process.env.MASHA);
+		// client1.login(process.env.MASHA);
 		client2.login(process.env.LEA);
 		client3.login(process.env.SHAYLA);
 		client4.login(process.env.SMOKIE);
